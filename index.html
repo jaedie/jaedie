@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+  <meta charset="utf-8">
+  <title>Jaedie Project</title>
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="font.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="nav.js"></script>
+</head>
+<body>
+  <nav id="mySidenav" class="sideNav">
+    <a href="about.html" id="about">About</a>
+    <a href="past.html" id="past">Past</a>
+    <a href="future.html" id="future">Future</a>
+  </nav>
+  <div class="indexBg">
+    <h1>Hi, it's me, James.</h1>
+  <div class="footerWrapper">
+    <footer class = "icon-bar">
+      <div class="popup" onclick="myFunction()">
+        <img class="icons" src="icons/Favorites/mobile_icon.png" style="width:35px;height:35px">
+        <span class="popuptext" id="myPopup">010-xxxx-xxxx</span>
+      </div>
+      <div class="popup" onclick="myFunction2()">
+        <span class="popuptext" id="myPopup2">jamesleehw@gmail.com</span>
+        <img class="icons" src="icons/Favorites/email_icon.png" style="width:35px;height:35px">
+      </div>
+      <div>
+        <a href="https://github.com/jaedie/jaedie-project" target="_blank"><img class="icons" src="icons/Favorites/github_icon.png" style="width:35px;height:35px"></a>
+      </div>
+      <div>
+        <a href="https://velog.io/@jaedie" target="_blank"><img class="icons" src="icons/Favorites/velog_icon.png" style="width:35px;height:35px"></a>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      function myFunction2() {
+        var popup = document.getElementById('myPopup2');
+        popup.classList.toggle("show");
+      }
+    </script>
+
+  </div>
+  </div>
+  <div id="main">
+  </div>
+
+</body>
+</html>

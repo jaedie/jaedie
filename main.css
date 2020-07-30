@@ -1,0 +1,212 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  padding: 40px 0 0 0;
+  color: white;
+  margin-top: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.5s;
+  padding: 10px;
+  width: 95px;
+  height: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  text-align:left,;
+  font-family: 'Lobster', cursive;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 80px;
+  background-color: #20639B;
+
+}
+
+#past {
+  top: 140px;
+  background-color: #3CAEA3;
+
+}
+
+#future {
+  top: 200px;
+  background-color: #F6D55C;
+
+}
+
+#home {
+  top: 20px;
+  background-color: #ED553B;
+
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.footerIcons {
+  display: inline-block;
+  flex-wrap: wrap:
+  padding: 0 50px;
+  float: right;
+}
+
+.indexBg {
+  background-image: url("images/index-overlay.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.aboutBg {
+  background-image: url("images/about-overlay.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+.pastBg {
+  background-image: url("images/past-overlay.jpeg");
+  height: 50%;
+  background-position: center reverse;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.futureBg {
+  background-image: url("images/future-overlay.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer */
+.icons {
+  filter: grayscale(100%);
+}
+
+.footerWrapper {
+  width:100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.icon-bar {
+  background-color: none;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bar a{
+  display: block;
+  width: 5%;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.icon-bar a:hover {
+  filter: invert(100%);
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* image contents */
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Lobster';
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width:100%;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
