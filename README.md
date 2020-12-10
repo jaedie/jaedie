@@ -14,3 +14,6 @@ Some of my skill sets:<br/>
 </ul>
   <br/>
 <hr/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=jaedie&count_private=true&show_icons=true&theme=cobalt"/>
+
