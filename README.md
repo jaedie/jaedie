@@ -1,16 +1,16 @@
-### Hi there 👋
+<h1>⚡James H. Lee / Front-end developer</h1>
 
-<!--
-**jaedie/jaedie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Some of my skill sets:<br/>
+<ul>
+  <li style="font-weight:bold;">-HTML</li>
+  <li>-CSS</li>
+  <li>-SCSS</li>
+  <li>-Javascript</li>
+  <li>-React.js</li>
+  <li>-React redux</li>
+  <li>-Git</li>
+  <li>-Github</li>
+  <li>-and more...</li>
+</ul>
+  <br/>
+<hr/>
